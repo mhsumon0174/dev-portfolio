@@ -123,8 +123,39 @@ main{
 .text-center{
 text-align: center;
 }
+.resume{
+    margin-top: 200px;
+}
 .resume-content{
     display: flex;
    gap: 26px;
     
+}
+.footer-main{
+    display: flex;
+    margin-top: 100px;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{
+width: 50%;
+}
+footer input[type="text"],[type="email"]{
+    display: block;
+    height: 30px;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+font-size: 30px;
+   
+}
+footer textarea{
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding:30px;
+    font-size: 30px;
 }
